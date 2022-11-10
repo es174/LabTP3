@@ -38,7 +38,7 @@ namespace ChatClient
                     form.Show();
                     this.Hide();
                     isConnected = true;
-                    //   this.Close();
+                 //   this.Close();
                 }
               
             }
@@ -62,8 +62,8 @@ namespace ChatClient
                     Form1 form = new Form1(id, usernameBox.Text, this);
                     form.Show();
                     this.Hide();
-                    isConnected = true;
-                }
+                isConnected = true;
+            }
               
             }
         }
@@ -73,7 +73,7 @@ namespace ChatClient
             try
             {
                 if (type == 1)
-                    ConnectUser();
+            ConnectUser();
                 else if (type == 2)
                     RegistrationUser();
             }
